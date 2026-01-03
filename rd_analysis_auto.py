@@ -172,7 +172,7 @@ class RDAnalyzer:
             json.dump(results, f, indent=2)
         print(f"결과 저장: {output_file}")
 
-# 사용 예시
+# 사용 예시, task C 파일을 넣을 것
 if __name__ == "__main__":
     analyzer = RDAnalyzer()
     
