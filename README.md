@@ -2,6 +2,15 @@
 
 LLVM 기반의 메모리 재사용 거리(Reuse Distance) 분석 도구입니다. C 코드의 메모리 접근 패턴을 분석하여 캐시 성능 최적화에 활용할 수 있는 정보를 제공합니다.
 
+## Related Publication
+
+**CAAS:Cache Affinity Aware Scheduling Framework for Orbital Edge Computing**  
+Jiwoo Shin, Hyeonsoo Jeon, Junyong Park, Jaehyeok Jang, Joonhyouk Jang, Jinman Jung
+
+*The 41st ACM/SIGAPP Symposium On Applied Computing, March 2026*
+
+📄 Paper: (modified after publication)
+
 ## 프로젝트 개요
 
 이 프로젝트는 LLVM의 커스텀 패스를 활용하여 프로그램의 메모리 접근 패턴을 분석합니다. 각 메모리 접근에 대한 재사용 거리(Reuse Distance)를 측정합니다.
